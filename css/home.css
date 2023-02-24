@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Yanone Kaffeesatz;
+  src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+  src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+}
+
+#container {
+  background: transparent url(../images/grass.png) repeat-x bottom;
+
+
+}
+
+.main {
+  position: relative;
+}
